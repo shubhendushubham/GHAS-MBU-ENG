@@ -38,3 +38,26 @@ eg: Log4j Year 2021
 - Helps in Vulnerability mitigation 
 - Automate the process that monitors and secures project dependencies and searches for vulnerabilities 
 
+Demo : Security Overview 
+
+![Alt text](image.png)
+
+Features:
+ 
+ * Central location to monitor the state of project dependencies
+ * Allows to identify problematic repository
+ * Help to understand criticality of depndencies 
+ * View, Fileter and sort automated security features from the security alerts generated for organisation/ specific team.
+
+
+Code scan
+ ![Alt text](image-1.png)   
+code scan setup 2
+ ![Alt text](image-2.png)
+
+ 3
+ ![Alt text](image-3.png)
+
+ Scan Result 
+
+ ![Alt text](image-4.png)
