@@ -74,7 +74,7 @@ Image source : Microsoft Doc
 
 Image source: Microsoft Doc
 
-**Benifits**: 
+**Benefits**: 
 
 * Code scanning scans for potential vulnerabilities and 
  coding errors at every commit and merge.
