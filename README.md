@@ -54,7 +54,7 @@ Features:
 
 * Code Scan API 
 
-Let's understand the SDLC lifecycle 
+Let's understand the SDLC
 
 ## Traditional Approach aka "Security As Gate" :- 
 
