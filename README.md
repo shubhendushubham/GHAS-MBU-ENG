@@ -50,9 +50,45 @@ Features:
  * View, Fileter and sort automated security features from the security alerts generated for organisation/ specific team.
 
 
-Code scan
- ![Alt text](image-1.png)   
-code scan setup 2
+## Code Scan
+
+* Code Scan API 
+
+Let's understand the SDLC lifecycle 
+
+## Traditional Approach aka "Security As Gate" :- 
+
+![Alt text](image-6.png)
+
+Image source : Microsoft Doc
+
+**Issue**:
+
+* Single security Test 
+* Series of security Test only at Quality-Assurance phase
+* Bottle Neck in software shipment 
+
+## New Approach: Security Towards Left 
+
+![Alt text](image-7.png)
+
+Image source: Microsoft Doc
+
+**Benifits**: 
+
+* Code scanning scans for potential vulnerabilities and 
+ coding errors at every commit and merge.
+
+* Secret scanning also scans for tokens and private keys that might have been accidentally committed at every commit and merge.
+
+* Dependency review keeps track of the project dependency changes and their impact on the project security by comparing the repository manifest files to the databases of known vulnerabilities at every pull request.
+
+Demo: Enabling Features
+
+ ![Alt text](image-1.png) 
+
+code scan setup 
+
  ![Alt text](image-2.png)
 
  3
@@ -61,3 +97,43 @@ code scan setup 2
  Scan Result 
 
  ![Alt text](image-4.png)
+
+ Search
+ ![Alt text](image-5.png)
+
+ Workflow
+
+ ![Alt text](image-9.png)
+
+ CodeQl YML 
+
+ ![Alt text](image-10.png)
+
+ ## Secret Scanning
+
+* Repo API
+* Secret Scanning API
+
+Result 
+
+![Alt text](image-8.png)
+
+## Dependent BOT
+
+Alerts Overview 
+
+![Alt text](image-11.png)
+
+Managing Alerts 
+
+![Alt text](image-12.png)
+
+Closing/ Tag Alerts 
+
+![Alt text](image-13.png)
+
+## Points to Consider
+
+* Security Overview Feature is only available on private repos with GitHub Advance Security
+
+* One can enable GitHub Advanced Security for all the private and internal repositories in your organization in its Code and security settings.
